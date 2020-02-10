@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -39,7 +40,7 @@
                   'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>Arc-Clone-Edited-hex3l</name>
+    <name>Rip</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -156,16 +157,16 @@
     <right>0</right>
   </margins>
   <dock>
-    <position>TopLeft</position>
+    <position>Top</position>
     <!-- (Top|Bottom)(Left|Right|)|Top|Bottom|Left|Right|Floating -->
     <floatingX>0</floatingX>
     <floatingY>0</floatingY>
     <noStrut>no</noStrut>
-    <stacking>Above</stacking>
+    <stacking>Normal</stacking>
     <!-- 'Above', 'Normal', or 'Below' -->
     <direction>Vertical</direction>
     <!-- 'Vertical' or 'Horizontal' -->
-    <autoHide>no</autoHide>
+    <autoHide>yes</autoHide>
     <hideDelay>300</hideDelay>
     <!-- in milliseconds (1000 = 1 second) -->
     <showDelay>300</showDelay>
@@ -177,6 +178,11 @@
     <chainQuitKey>C-g</chainQuitKey>
     <keybind key="C-A-Left">
       <action name="GoToDesktop"/>
+    </keybind>
+    <keybind key="W-p">
+      <action name="Execute">
+        <command>sh -c "import -window root ~/$(date '+%Y%m%d-%H%M%S').png"</command>
+      </action>
     </keybind>
     <keybind key="C-A-Right">
       <action name="GoToDesktop"/>
@@ -251,7 +257,7 @@
       <action name="MoveResizeTo">
         <width>50%</width>
       </action>
-      <action name="MoveToEdge"/>
+      <action name="MoveToEdgeWest"/>
     </keybind>
     <keybind key="W-Right">
       <action name="UnmaximizeFull"/>
@@ -259,7 +265,13 @@
       <action name="MoveResizeTo">
         <width>50%</width>
       </action>
-      <action name="MoveToEdge"/>
+      <action name="MoveToEdgeEast"/>
+    </keybind>
+    <keybind key="W-Up">
+      <action name="MaximizeFull"/>
+    </keybind>
+    <keybind key="W-Down">
+      <action name="UnmaximizeFull"/>
     </keybind>
     <keybind key="W-S-Right">
       <action name="DirectionalCycleWindows"/>
@@ -282,44 +294,79 @@
         </startupnotify>
       </action>
     </keybind>
+    <keybind key="W-f">
+      <action name="Execute">
+        <command>firefox</command>
+      </action>
+    </keybind>
     <keybind key="W-space">
       <action name="ShowMenu">
         <menu>root-menu</menu>
       </action>
     </keybind>
-    <keybind key="W-q">
+    <keybind key="XF86LaunchA">
       <action name="ShowMenu">
         <menu>client-list-combined-menu</menu>
       </action>
     </keybind>
     <keybind key="W-t">
       <action name="Execute">
-        <command>gnome-terminal</command>
+        <command>xfce4-terminal</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <command>xbacklight +2</command>
+        <command>sudo /usr/local/bin/xbacklight.sh up</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <command>xbacklight -2</command>
+        <command>sudo /usr/local/bin/xbacklight.sh down</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <command>pactl set-sink-mute @DEFAULT_SINK@ toggle</command>
+        <command>/usr/local/bin/volume.sh mute</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <command>pactl set-sink-volume @DEFAULT_SINK@ -1000</command>
+        <command>/usr/local/bin/volume.sh down</command>
       </action>
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <command>pactl set-sink-volume @DEFAULT_SINK@ +1000</command>
+        <command>/usr/local/bin/volume.sh up</command>
+      </action>
+    </keybind>
+    <keybind key="XF86KbdBrightnessDown">
+      <action name="Execute">
+        <command>sudo /usr/local/bin/backlight.sh down</command>
+      </action>
+    </keybind>
+    <keybind key="XF86KbdBrightnessUp">
+      <action name="Execute">
+        <command>sudo /usr/local/bin/backlight.sh up</command>
+      </action>
+    </keybind>
+    <keybind key="S-W-q">
+      <action name="Execute">
+        <command>dm-tool switch-to-greeter</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioPlay">
+      <action name="Execute">
+        <command>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioNext">
+      <action name="Execute">
+        <command>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next</command>
+      </action>
+    </keybind>
+    <keybind key="XF86AudioPrev">
+      <action name="Execute">
+        <command>dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous</command>
       </action>
     </keybind>
   </keyboard>
@@ -714,7 +761,7 @@
     # each rule element can be left out or set to 'default' to specify to not 
     # change that attribute of the window
 
-    <decor>yes</decor>
+    <decor>no</decor>
     # enable or disable window decorations
 
     <shade>no</shade>
@@ -775,7 +822,9 @@
     # 'Horizontal', 'Vertical' or boolean (yes/no)
   </application>
 
-  # end of the example
--->
+  # end of the example-->
+    <application role="browser">
+      <decor>no</decor>
+    </application>
   </applications>
 </openbox_config>
