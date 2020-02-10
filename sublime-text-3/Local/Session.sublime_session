@@ -1,0 +1,833 @@
+{
+	"folder_history":
+	[
+		"/home/rip/.dropbox/logs/1",
+		"/home/rip/.dropbox/logs",
+		"/home/rip/.config/autostart",
+		"/etc/profile.d"
+	],
+	"last_version": 3211,
+	"last_window_id": 13,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"none",
+						"None"
+					],
+					[
+						"stop",
+						"stop-all"
+					],
+					[
+						"status",
+						"STATUS"
+					],
+					[
+						"p",
+						"prima"
+					],
+					[
+						"minuti",
+						"minuti2"
+					],
+					[
+						"minu",
+						"minuti2"
+					],
+					[
+						"minuit",
+						"minuti1"
+					],
+					[
+						"f",
+						"f"
+					],
+					[
+						"e",
+						"echo"
+					],
+					[
+						"re",
+						"return"
+					],
+					[
+						"in",
+						"indice"
+					],
+					[
+						"ligh",
+						"light-0"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rip/.config/spicetify/Themes/Black/user.css",
+				"/home/rip/.config/spicetify/Themes/Challenger-Deep/user.css",
+				"/home/rip/.config/spicetify/Themes/Rip/README.md",
+				"/home/rip/.config/spicetify/Themes/Rip/color.ini",
+				"/usr/local/MATLAB/R2019b/toolbox/matlab/graphics/addpoints.m",
+				"/usr/local/MATLAB/R2019b/toolbox/matlab/graphics/figure.m",
+				"/usr/local/MATLAB/R2019b/toolbox/matlab/graphics/figure",
+				"/home/rip/.bashrc",
+				"/home/rip/.config/wpg/sequences",
+				"/home/rip/.config/openbox/autostart",
+				"/home/rip/Dropbox/Università/Primo Anno/Optimal control/Project/puma_simulation/graphics.mat",
+				"/home/rip/linux-desktop-conf/openbox/menu/root-menu",
+				"/home/rip/.local/bin/obtgen",
+				"/home/rip/Dropbox/Università/Primo Anno/Optimal control/Project/puma_simulation/Puma_Simulation.m",
+				"/home/rip/.config/wpg/wp_init.sh",
+				"/home/rip/.Xresources",
+				"/home/rip/.config/lxterminal/lxterminal.conf",
+				"/home/rip/Downloads/puma_simulation/Puma_Simulation.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Optimal control/Project/puma_simulation/license.txt",
+				"/home/rip/.gtkrc-2.0",
+				"/home/rip/.icons/default/index.theme",
+				"/home/rip/.config/openbox/rc.xml",
+				"/home/rip/.config/openbox/menu.xml",
+				"/home/rip/linux-desktop-conf/openbox/menu/wifi",
+				"/home/rip/.config/polybar/script/spotify_status.py",
+				"/usr/local/bin/xbacklight.sh",
+				"/usr/local/bin/volume.sh",
+				"/usr/local/bin/mute.sh",
+				"/home/rip/linux-desktop-conf/openbox/menu/battery",
+				"/home/rip/linux-desktop-conf/openbox/menu/date",
+				"/usr/local/bin/backlight.sh",
+				"/home/rip/.config/polybar/launch.sh",
+				"/home/rip/Downloads/puma_simulation/license.txt",
+				"/home/rip/.cache/.fr-Dyl8Is/puma3d.m",
+				"/home/rip/.config/polybar/script/dropbox-isrunning.sh",
+				"/home/rip/.cache/.fr-4hbsUv/license.txt",
+				"/home/rip/.config/autostart/dropbox.desktop",
+				"/home/rip/.dropbox/info.json",
+				"/home/rip/.dropbox/dropbox.pid",
+				"/home/rip/.dropbox/instance1/config.dbx",
+				"/home/rip/.dropbox/logs/1ro/1-971c-5de138f5.tmp",
+				"/home/rip/.dropbox/logs/0/1-94ce-5e276eb8",
+				"/usr/share/dropbox-cli/dropbox-cli.py",
+				"/usr/local/bin/dropbox.py",
+				"/home/rip/.config/spicetify/config.ini",
+				"/home/rip/.config/spicetify/Themes/Dark/user.css",
+				"/home/rip/.config/spicetify/Themes/Dark/README.md",
+				"/home/rip/.config/spicetify/Themes/Arc-Dark/color.ini",
+				"/home/rip/.config/spicetify/Themes/Arc-Dark/README.md",
+				"/home/rip/.config/spicetify/Themes/Arc-Dark/user.css",
+				"/home/rip/.config/spicetify/Themes/Black/color.ini",
+				"/home/rip/.config/spicetify/Themes/Black/README.md",
+				"/tmp/mozilla_rip0/codebeautify.html",
+				"/home/rip/.config/polybar/test-fonts.pl",
+				"/home/rip/Gestione home xperia",
+				"/etc/xdg/autostart/wicd-tray.desktop",
+				"/var/log/wicd/wicd.log",
+				"/etc/netctl/Telecom-61702977",
+				"/home/rip/.config/polybar/config",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/matlab_most_useful_command.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Robotics 1/subspaces_3Rplanar.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/splines_2.m",
+				"/home/rip/Downloads/splines_2.m",
+				"/home/rip/nonNormalized.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Robotics 1/DeLuca_Mail1.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Robotics 1/DeLuca_Mail2.txt",
+				"/tmp/mozilla_rip0/RRRR_kinematics.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/bang_coast_bang_trajectory_planning.m",
+				"/tmp/mozilla_rip0/Описание и установка.txt",
+				"/home/rip/.cache/.fr-GjlWPp/matlab/output.xml",
+				"/home/rip/MATLAB Add-Ons/Toolboxes/Robotics Toolbox for MATLAB/resources/documentation.xml",
+				"/usr/bin/yes",
+				"/usr/bin/wargames",
+				"/home/rip/prova.py",
+				"/home/rip/pkglist_24_11_2019",
+				"/var/log/pacman.log",
+				"/var/lib/dkms/bcwc-pcie/r256.b0c7a6a/build/make.log",
+				"/usr/local/bin/2to3",
+				"/home/rip/Downloads/dropbox.py",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/DH2Homogeneous.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/newtonMethodOneStep.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/newtonMethod.m",
+				"/home/rip/Downloads/rotation2euler.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/rotation2euler_ciotto_prova.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/inverse_rotations.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/axis_angle2rotm.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/direct_rotations.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/euler2rotm.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/homogeneousTransf.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Robotics 1/dirkin_SCARA.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/axis_angle_rotm.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/homogeneous.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/euler_rotm.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/DH_Homogeneous.m",
+				"/home/rip/Downloads/inverse_rotations.m",
+				"/home/rip/Downloads/direct_rotations.m",
+				"/home/rip/.cache/.fr-Dhse0J/.PKGINFO",
+				"/home/rip/Downloads/symbolic_direct_kinematic_DH.txt",
+				"/home/rip/.cache/.fr-wk3QDH/.INSTALL",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/zrot.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/yrot.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/xrot.txt",
+				"/home/rip/Downloads/zrot.txt",
+				"/home/rip/Downloads/yrot.txt",
+				"/home/rip/Downloads/xrot.txt",
+				"/home/rip/.bash_profile",
+				"/home/rip/.profile",
+				"/etc/systemd/system/sleep.target.wants/tlp-sleep.service",
+				"/home/rip/Downloads/dirkin_SCARA.m",
+				"/home/rip/Downloads/scriptFoto",
+				"/home/rip/ciao",
+				"/home/rip/Downloads/matlab/installer_input.txt",
+				"/home/rip/Downloads/matlab/readme.txt",
+				"/home/rip/Downloads/repository.castagnait/addon.xml",
+				"/home/rip/Downloads/repository.netflix/addon.xml",
+				"/run/media/rip/TOSHIBA EXT/Foto",
+				"/home/rip/2019_07 Laurea/Canon data JPG/scriptFoto",
+				"/home/rip/prova/scriptFoto",
+				"/home/rip/Downloads/linux-desktop-conf/openbox/menu/battery",
+				"/home/rip/scriptFoto",
+				"/home/rip/59]",
+				"/home/rip/SO/Awk/Luigi",
+				"/home/rip/SO/simulazioneNew/lotto",
+				"/home/rip/SO/Awk/donzella",
+				"/home/rip/Downloads/LPC845BRK_Examples/LPC845_BoB_CAPTouch/source/LPC845_BoB_CAPTouch.c",
+				"/home/rip/Downloads/LPC845BRK_Examples/LPC845_BoB_CAPTouch/drivers/fsl_capt.c",
+				"/home/rip/Downloads/LPC845BRK_Examples/LPC845_BoB_CAPTouch/drivers/fsl_capt.h",
+				"/home/rip/Downloads/LPC845BRK_Examples/LPC845_PWM_LED/source/mtb.c"
+			],
+			"find":
+			{
+				"height": 24.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"buddy",
+					"custom",
+					"END"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 152.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"tet",
+						"tetherStop"
+					],
+					[
+						"clo",
+						"button-close"
+					],
+					[
+						"icon",
+						"iconify"
+					],
+					[
+						"mod",
+						"modspotify_main_bg"
+					],
+					[
+						"none",
+						"None"
+					],
+					[
+						"stop",
+						"stop-all"
+					],
+					[
+						"status",
+						"STATUS"
+					],
+					[
+						"p",
+						"prima"
+					],
+					[
+						"minuti",
+						"minuti2"
+					],
+					[
+						"minu",
+						"minuti2"
+					],
+					[
+						"minuit",
+						"minuti1"
+					],
+					[
+						"f",
+						"f"
+					],
+					[
+						"e",
+						"echo"
+					],
+					[
+						"re",
+						"return"
+					],
+					[
+						"in",
+						"indice"
+					],
+					[
+						"ligh",
+						"light-0"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/rip/.config/spicetify/Themes/Rip_white/color.ini",
+					"settings":
+					{
+						"buffer_size": 1233,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": ":root {\n\t--bar-height: 90px;\n}\n.sidebar {\n--left-sidebar-item-height: 29px !important;\n}\n.resizer-right {\n\tbackground-color: #000;\n}\n\nbody {\n    font-family: 'Google Sans';\n}\n\n/*Round corner cover image*/\n.card-image,\n.card-placeholder-wrapper,\n.card-image-content-wrapper,\n.Card:not(.Card--artist) .Card__image,\n.Card:not(.Card--artist) .Card__image-wrapper {\n\tborder-radius: 10px !important;\n\toverflow: hidden !important\n}\n\n/*Hide some annoying elements like profile name and pic, upgrade button and device connect bar at bottom, new playlist button*/\n.profile.content-top-bar__profile-link,\n.upgrade-button,\n.view-player .remote-playback-bar,\n.LeftSidebarNewPlaylistButton__button {\n\tdisplay: none !important;\n}\n\n\n\n/*Exclude these elements from draggable property because it stops them from clickable*/\n.profile-items-container,\n.profile {\n\t-webkit-app-region: no-drag !important;\n}\n\n/*Thinner scrollbar*/\n::-webkit-scrollbar {\n\theight: 6px !important;\n\twidth: 6px !important;\n\tbackground-color: transparent;\n}\n\n/*Round corner scrollbar*/\n::-webkit-scrollbar-thumb {\n\tborder-radius: 3px !important;\n}\n\n/*Hide top and bottom buttons of scrollbar */\n/*who uses those, lol*/\n::-webkit-scrollbar-button {\n\tdisplay: none !important;\n}\n\n/*Hide cover image overlay*/\n.card-overlay {\n\tvisibility: hidden !important;\n}\n\n.card-image-hit-area .card-button-add,\n.card-image-hit-area .card-button-play,\n.card-image-hit-area .card-button-more,\n.Card__image-hit-area .card-button-add,\n.Card__image-hit-area .card-button-play,\n.Card__image-hit-area .card-button-more,\n.Card__image-hit-area .Card__play-button,\n.Card__image-hit-area .Card__add-button,\n.Card__image-hit-area .Card__more-button,\n.Card__image-hit-area .Card__overlay  {\n\ttransition-property: all !important;\n\ttransition-duration: 0.3s !important;\n\ttransition-timing-function: cubic-bezier(.3,0,0,1) !important;\n\topacity: 1 !important;\n}\n\n.glue-page-header__content .glue-page-header__image-inner {\n\tborder-radius: 10px;\n\tbox-shadow: unset !important;\n}\n\n.glue-page-header__full-description-overlay {\n\tbox-shadow: unset !important;\n}\n\n.card-placeholder-wrapper {\n\tbackground: transparent !important;\n}\n\n/*Spice up search input background*/\n.SearchInput {\n\tcolor: var(--modspotify_main_fg);\n}\n.SearchInput__input {\n\tcolor: var(--modspotify_secondary_fg);\n\tbackground-color: #141414 !important;\n\tborder-radius: 4px !important;\n\tpadding-left: 34px;\n}\n\n/*.sidebar:hover .sidebar-navbar.sidebar-scroll-element {\n\topacity: 0.4!important;\n}*/\n\n.view-player .player-controls-container,\n.view-player .player-controls-container .controls {\n\toverflow: visible !important;\n\t/*color: rgba(254, 69, 69, 1) !important;*/\n}\n\n.view-player .player-controls-container .controls .button-play{\n\theight:50px !important;\n\tborder-radius:50px !important;\n\tbackground-color: #0e0e0e !important;\n\tbox-shadow:0 0 0 0 !important;\n\twidth:50px !important;\n\toverflow: visible !important;\n\tbox-shadow: 0 4px 15px rgba(0,0,0,0.2) !important;\n\ttransition:none 0.3s cubic-bezier(.3,0,.7,1);\n\tcolor: rgba(254, 69, 69, 1) !important;\n}\n\n.view-player .player-controls-container .controls .button{\n\tcolor: rgba(254, 69, 69, 1) !important;\n}\n\n.view-player .player-controls-container .controls .button-play:before{\n\tfont-size:18px !important;\n\tpadding-left: 16px !important;\n\tpadding-top: 9px !important;\n}\n\n.view-player .player-controls-container .controls .button-play:after {\n\tbox-shadow: unset !important;\n}\n\n.view-player .player-controls-container {\n\tposition: absolute !important;\n\twidth: 100% !important;\n}\n\n.view-player .player-controls-container .controls {\n\twidth: 100% !important;\n\theight: 100%  !important;\n\talign-items: center !important;\n\tmargin-top : 0px !important;\n}\n\n/* Add round corner for Gerne and Mood cards */\n.gc-image-container,\n.gc-image {\n\tborder-radius: 10px !important;\n}\n\n/*\nCollage of 3 album covers is usually seen in Browse and Chart.\n*/\n.card-puff__image-wrapper,\n.card-puff__info-container,\n.card-puff__card-image {\n\tborder-radius: 10px !important;\n}\n\n.card-puff__image-wrapper {\n  overflow: visible;\n}\n\n.card-puff__card-image {\n\tbox-shadow: 5px 0 30px rgba(0,0,0,0.7);\n\toverflow: visible;\n}\n\n.card-puff__title-container {\n\tbackground-color: transparent !important;\n}\n\n.card-puff.pressed .card-puff__image-wrapper,\n.card-puff.pressed .card-puff__info-container {\n\topacity: 0.7 !important;\n}\n\n.card-puff__title {\n\tpadding: 5px 10px 5px 10px !important;\n\tbackground-color: var(--modspotify_main_bg) !important;\n\tborder-radius: 4px;\n\tborder: 2px solid var(--modspotify_main_fg);\n\t/*rgba(254, 69, 69, 1);\n\t*/\n}\n\n/*\nWe use round corner on cover so they look weird in original\nform, so I move last cover to the right 20px and first one to the left 20px\n*/\n.card-puff__card-image:nth-child(1) {\n\tright: 20px;\n\tbox-shadow: 0 0 0 0 !important;\n}\n\n.card-puff__card-image:nth-child(3) {\n\tleft: 20px;\n}\n\n.grid-overlay-label {\n\ttop: 140px !important;\n}\n\n/**/\n.glue-page-header__background-color {\n\tbackground-image: none !important;\n\tbackground: var(--modspotify_main_bg);\n}\n\n/* .glue-page-header__sticky {\n  \tpadding-top: 60px !important;\n} */\n\n/*\nRemove those title, cringy description and\nmeaningless followers number\n*/\n\n.carousel .card-info-subtitle-description,\n.carousel .card-info-subtitle-metadata,\n.carousel .card:not(.card-type-station).card-info-title,\n.carousel .card.card-type-playlist.image-loaded .Card__info-subtitle-description,\n.carousel .card.card-type-playlist.image-loaded .Card__info-subtitle-metadata {\n\tdisplay: none !important;\n}\n\n\n/*\nIn top of Browse usually has bunch of Playlist or Album cards,\nand they has .carousel as a wrapper and it hides anything that\noverflows from its zone, aka our shadow and lifting animation.\n*/\n.carousel {\n\toverflow: visible !important;\n}\n\n/*\nButton with text Play\n*/\n/*.button.button-green,\n.GlueButton.GlueButton--style-green {\n\tcolor: var(--modspotify_main_fg) !important;\n\tbackground-color: var(--modspotify_main_bg); \n\t\n}*/\n\n/*\nChange text color in playlist\n*/\n.tl-explicit .label,\n.tl-premium .label,\n.tl-cell:not(.tl-number),\n.tl-cell a:link,\n.tl-highlight {\n  color: var(--modspotify_secondary_fg);\n}\n\n.card-type-album .card-info-title,\n.card-type-track .card-info-title,\n.card-type-collection-album .card-info-title,\n.card-type-episode .card-info-title {\n  \tfont-size: 15px;\n  \tfont-weight: 900 !important;\n\ttext-align: center !important;\n\twidth: 100% !important;\n}\n\n.card-type-album .card-info-subtitle-links,\n.card-type-track .card-info-subtitle-links,\n.card-type-collection-album .card-info-subtitle-links,\n.card-type-episode .card-info-subtitle-links {\n\ttext-align: center !important;\n\twidth: 100% !important;\n}\n\n.tracklist-station-container::after {\n\tbackground: transparent !important;\n}\n\n.GlueHeader__background-overlay {\n\tbackground: var(--modspotify_main_bg) !important;\n}\n\n/* Move navigation buttons and search field to the right and down */\n.browser-navigation-top-bar {\n\tmargin-left: 40px !important;\n\tmargin-top: 15px !important;\n}\n\n.SearchInput__input,\n.SearchInput__searchIcon,\n.SearchInput__clearButton {\n\tmargin-top: 15px !important;\n}\n\n.content-top-bar__profile-menu-button {\n\tmargin-top: 15px !important;\n}\n\n.body-container--windows:not(.with-buddy-list):not(.messagebar) .content-top-bar__profile {\n\tmargin-right: 110px !important;\n\tmargin-top: -5px;\n}\n\n#view-buddy-list {\n\t\tdisplay: None !important;\n\t}\n\n/* Spice up Fullscreen mode */\n#view-player .album-art .album-art__image {\n\tborder-radius: 30px !important;\n\tbox-shadow: 0 10px 70px rgba(var(--modspotify_rgb_cover_overlay_and_shadow),.5) !important;\n}\n\n#view-player .album-art .album-art__image .card-image-content-wrapper,\n#view-player .album-art .album-art__image .card-image-content-wrapper .card-image {\n\tborder-radius: 30px !important;\n}\n\n#video-player .album-art__foreground {\n\tflex-direction: row;\n\ttext-align: left;\n}\n\n#video-player .album-art__background {\n\tbackground-color: initial;\n}\n\n#video-player .album-art__track-details {\n\tpadding-left: 50px;\n\tline-height: initial;\n}\n\n#video-player .album-art__track-title {\n\tfont-size: 84px;\n\tmargin-top: 0;\n\tline-height: initial;\n}\n\n#video-player .album-art__artist-name {\n\tfont-size: 54px;\n\tmargin-top: 0;\n\tline-height: initial;\n}\n\n/* Daily mixes */\n.carousel .card-info-wrapper.card-info-with-description.card-info-with-metadata {\n\theight: 50px !important;\n}\n\n/* Remove section divider */\n.section-divider {\n\tborder-bottom: 0 !important;\n}\n\n/* Adjust Position of border active tab in Nav bar at top\nand add little glowing effect\n*/\n.nav.navbar-nav {\n\toverflow: hidden !important;\n}\n\n.nav.navbar-nav a {\n\toverflow: visible !important;\n}\n\n.nav.navbar-nav a::after {\n\tbottom: 0px !important;\n\twidth: 100% !important;\n}\n\n.nav.navbar-nav .active  a::after{\n\tbox-shadow: 0 0px 20px !important;\n}\n\n.nav.navbar-nav a:focus:not(.button):active::after{\n\tbackground-color: var(--modspotify_pressing_fg) !important;\n}\n\n/* Notification bar */\n#content-wrapper #view-message-bar {\n\tposition: absolute !important;\n\twidth: calc(100% - 160px) !important;\n\tmargin-left: 80px !important;\n\tborder-radius: 0 0 10px 10px !important;\n}\n\n/* Small cover Big cover mechanism */\n.now-playing.cover-size-transition.active.image-expanded #now-playing-image-small {\n    display: none;\n}\n\n.now-playing.cover-size-transition.active.image-expanded .cover-image-link-wrapper {\n\tflex: 0 1 10px;\n}\n\n#view-now-playing a.image {\n\toverflow: visible !important;\n}\n\n/* Profile arrow in top left */\n.content-top-bar__profile-menu-button .dropdown {\n\tposition: fixed !important;\n    top: 10px !important;\n\t-webkit-app-region: no-drag !important;\n}\n\n/* [WINDOWS] Change Profile menu horizontal position */\nbody.body-container--windows .content-top-bar__profile-menu-button .dropdown {\n\tright: 190px !important;\n}\n\nbody:not(.body-container--windows) .content-top-bar__profile-menu-button .dropdown {\n\tright: 20px !important;\n}\n\n/* Small tooltip (sono i suggerimenti quando passi sopra i comandi) */\n#tooltip {\n\tbox-shadow: 0 0 10px rgba(0,0,0,0.2) !important;\n\tborder-radius: 5px !important;\n\tborder: 2px solid rgba(254, 69, 69, 1);\n\t/*var(--modspotify_main_fg);*/\n\tpadding: 10px 10px;\n}\n\n.tooltip-arrow-top, .tooltip-arrow-bottom {\n\tdisplay: none !important;\n}\n\n.lyrics-lines-container,\n.message-container {\n\tcolor: #FFFFFF !important;\n}\n\n/* Home page */\n.GlueCarousel__grid-wrapper::-webkit-scrollbar-thumb {\n\tdisplay: none;\n}\n\n.GlueCard__info-wrapper,\n.Card__info-wrapper {\n\tmargin-bottom: 30px;\n}\n\n.card-horizontal-interior-wrapper .card-info-  {\n\ttext-align: start !important;\n}\n\n.tl-row.selected:hover .tl-cell {\n\tbackground: var(--modspotify_scrollbar_fg_and_selected_row_bg) !important;\n}\n\n.GlueTableRow--is-selected {\n\tbackground-color: var(--modspotify_scrollbar_fg_and_selected_row_bg) !important;\n}\n\n.tracklist-podcast .tl-progress .row-progress__bar {\n    /*background-color: var(--modspotify_main_fg);*/\n    background-color: rgba(254, 69, 69, 1);\n}\n\n.Header__background-color{\n\tbackground-color: var(--modspotify_main_bg) !important;\n}\n\n.Button--style-green,\n.button.button-green, .button.button-white {\n\t/*border-radius: 4px; */\n\t/*color: var(--modspotify_main_fg) !important;*/\n\tcolor: rgba(254, 69, 69, 1) !important;\n\tborder: 1px solid rgba(254, 69, 69, 1) !important;\n\tbackground-color: var(--modspotify_main_bg);\n}\n\n.Button--style-green:hover \n.button.button-green, .button.button-white {\n\tbackground-color: var(--modspotify_main_bg);\n}\n\n/* play queue */\n.glue-page-header:not(.glue-page-header--album):not(.glue-page-header--playlist):not(.glue-page-header--artist):not(.glue-page-header--dailymix):not(.glue-page-header--user):not(.glue-page-header--show)\n\t.glue-page-header__content-inner .glue-page-header__title-text,\n.HomeHeader .Header__content-inner .Header__title-text-inner,\n.MadeForYouHeader .Header__content-inner .Header__title-text-inner,\n.RecentlyPlayedPage__header .Header__content-inner .Header__title-text-inner {\n\tbackground-color: var(--modspotify_main_bg);\n\t/* padding: 5px 20px;\n\tborder: 5px solid var(--modspotify_main_fg) !important;\n\tborder-radius: 6px;\n\tbox-shadow: 0 4px 12px 0 rgba(var(--modspotify_rgb_cover_overlay_and_shadow),.2); */\n\ttext-transform: uppercase;\n\t/*border: 5px solid rgba(254, 69, 69, 1) !important;*/\n}\n\n.glue-page-header.glue-page-header--album .glue-page-header__content-inner .glue-page-header__title,\n.glue-page-header.glue-page-header--artist .glue-page-header__content-inner .glue-page-header__title,\n.glue-page-header.glue-page-header--dailymix .glue-page-header__content-inner .glue-page-header__title,\n.glue-page-header.glue-page-header--playlist .glue-page-header__content-inner .glue-page-header__title {\n\tmargin-top: 10px;\n}\n\n/* main title */\nspan.glue-page-header__title-text {\n\tcolor: var(--modspotify_main_fg);\n}\n\n.glue-page-header .glue-page-header__content-inner .glue-page-header__button {\n\tmargin-top: 40px;\n}\n\n.glue-page-header__content-inner,\n.glue-page-header__data,\n.glue-page-header__title,\n.Header__content-inner,\n.Header__data,\n.Header__title,\n.Header__title-text,\n.Header__title-text-inner {\n\toverflow: visible !important;\n}\n\n/*Force player bar to has fixed height*/\n.view-player {\n\theight: var(--bar-height) !important;\n\tborder-top: 0;\n}\n\n.view-player .now-playing {\n\toverflow: unset;\n}\n\n.view-player .cover-image-container {\n\tposition: fixed !important;\n\tleft: 0;\n\tbottom: 0;\n}\n\n.view-player .now-playing .cover-image-link,\n.view-player .now-playing .cover-image-link figure {\n\twidth: var(--bar-height);\n\theight: var(--bar-height);\n}\n\n#now-playing-image-small .cover-image {\n    width: var(--bar-height);\n    height: var(--bar-height);\n}\n\n.view-player .now-playing .cover-image-link-wrapper {\n\tflex: 0 1 calc(var(--bar-height) + 8px);\n}\n\n.text-container {\n\tz-index: 3;\n}\n\n.view-player .now-playing-container .button-add {\n\t/*color: var(--modspotify_main_fg) !important;*/\n\tcolor: rgba(254, 69, 69, 1) !important;\n}\n/*\n.progress-container .progress-bar,\n.progress-container .inner {\n\ttop: 0 !important;\n\tmargin-top: 0 !important;\n\theight: 5px;\n}\n\n\n.progress-container .progress-bar-wrapper {\n\ttop: 0 !important;\n\theight: 5px;\n}*/\n\n.progress-container {\n\t/*position: fixed !important;*/\n\twidth: 55% !important;\n\t/*bottom: var(--bar-height) !important;*/\n\t/*margin : 0 !important;*/\n\tmargin-left: auto;\n\tmargin-right: auto;\n\tbackground-color:\n}\n\n.glue-page-header__p2s-details,\n.glue-page-header__p2s-followers {\n\tdisplay: none;\n}\n\n.context-menu {\n\tborder: 2px solid rgba(254, 69, 69, 1);\n\t/*var(--modspotify_main_fg);*/\n\tbox-shadow: 0 4px 12px 0 rgba(var(--modspotify_rgb_cover_overlay_and_shadow),.2);\n\tborder-radius: 7px !important;\n\toverflow: hidden;\n}\n\n#menu-wrapper ::-webkit-scrollbar {\n\tdisplay: none;\n}\n\n#menu-wrapper {\n\tborder-right: 3px solid black;\n    border-image: linear-gradient(0deg, transparent , var(--modspotify_scrollbar_fg_and_selected_row_bg) 40%, var(--modspotify_scrollbar_fg_and_selected_row_bg) 60%, transparent 90%) 2 90%;\n}\n\n.main-view-wrapper {\n\toverflow: unset;\n}\n\n.Button--style-icon-stroke:after,\n.Button--style-icon-stroke:hover:after,\n.Button--style-icon-stroke,\n.glue-page-header__button .button-icon-with-stroke,\n.glue-page-header__button .button-icon-with-stroke::after {\n\tbox-shadow: unset;\n}\n\n.glue-page-header.glue-page-header--artist .glue-page-header__label {\n\tpadding-top: 10px;\n}\n\n.glue-page-header.glue-page-header--artist.has-custom-image .glue-page-header__label {\n\tpadding-top: 8px;\n}\n\n.glue-page-header__content .glue-page-header__label {\n\tmargin-left: -2px;\n\tz-index: 2;\n}\n\n/* .glue-page-header__label span,\n.Header__label span {\n\tbackground-color: var(--modspotify_main_fg);\n    color: var(--modspotify_main_bg);\n    padding: 2px 10px;\n} */\n\n.glue-page-header__label .header-verified-check {\n\tbackground-color: transparent;\n}\n\nbody.remotebar .view-player .player-bar-wrapper {\n\theight: 100%;\n}\n\n.Header__image-inner {\n\tbox-shadow: unset;\n}\n",
+					"file": "/home/rip/.config/spicetify/Themes/Rip_white/user.css",
+					"file_size": 15808,
+					"file_write_time": 132255837541627564,
+					"settings":
+					{
+						"buffer_size": 15770,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/rip/.config/spicetify/Themes/Gradianto/user.css",
+					"settings":
+					{
+						"buffer_size": 21621,
+						"line_ending": "Windows"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/rip/dotFiles/.git/COMMIT_EDITMSG",
+				"/home/rip/dotFiles/spicetify/Themes/README.md",
+				"/home/rip/.config/spotify/prefs",
+				"/home/rip/.config/qt5ct/qt5ct.conf",
+				"/home/rip/.config/pnmixer/config",
+				"/home/rip/.bashrc",
+				"/home/rip/git-prompt.sh",
+				"/home/rip/bash_profile_course",
+				"/home/rip/git-completion.bash",
+				"/home/rip/.config/lxsession-default-apps/settings.conf",
+				"/home/rip/.config/lxterminal/lxterminal.conf ",
+				"/home/rip/.config/htop/htoprc",
+				"/home/rip/.config/gtk-3.0/settings.ini",
+				"/home/rip/dotFiles/openbox/config/menu.xml",
+				"/home/rip/.config/openbox/README.md",
+				"/home/rip/dotFiles/openbox/config/autostart",
+				"/home/rip/.config/openbox/rc.xml",
+				"/home/rip/dotFiles/openbox/config/rc.xml",
+				"/home/rip/.config/openbox/menu.xml",
+				"/home/rip/.config/openbox/environment",
+				"/home/rip/dotFiles/openbox/menu/root-menu",
+				"/home/rip/dotFiles/openbox/menu/wifi",
+				"/home/rip/dotFiles/openbox/menu/date",
+				"/home/rip/dotFiles/openbox/menu/battery",
+				"/home/rip/dotFiles/openbox/menu/reboot",
+				"/home/rip/driverMouse/70-synaptics.conf",
+				"/home/rip/driverMouse/50-mtrack.conf",
+				"/home/rip/driverMouse/10-synaptics.conf",
+				"/home/rip/driverMouse/30-libinput.conf",
+				"/etc/X11/xorg.conf.d/30-libinput.conf",
+				"/home/rip/.config/polybar/config",
+				"/home/rip/.config/polybar/script/info-redshift-temp.sh",
+				"/home/rip/.config/polybar/script/network.sh",
+				"/home/rip/linux-desktop-conf/openbox/menu/wifi",
+				"/home/rip/.config/polybar/script/tethering.sh",
+				"/home/rip/.config/openbox/autostart",
+				"/home/rip/.config/polybar/launch.sh",
+				"/etc/netctl/examples/ethernet-dhcp",
+				"/etc/netctl/Telecom-61702977",
+				"/home/rip/linux-desktop-conf/openbox/menu/root-menu",
+				"/sys/devices/pci0000:00/0000:00:1c.2/0000:03:00.0/net/wlp3s0/phys_port_id",
+				"/home/rip/.mozilla/firefox/a0kksgbq.default/chrome/userChrome.css",
+				"/home/rip/.mozilla/firefox/a0kksgbq.default/buttons/manifest.json",
+				"/home/rip/.mozilla/firefox/a0kksgbq.default/buttons/background.js",
+				"/home/rip/.mozilla/firefox/a0kksgbq.default/buttons/META-INF/mozilla.sf",
+				"/home/rip/.mozilla/firefox/a0kksgbq.default/buttons/prova/META-INF/manifest.mf",
+				"/home/rip/.mozilla/firefox/a0kksgbq.default/buttons/prova/META-INF/mozilla.rsa",
+				"/sys/devices/pci0000:00/0000:00:14.0/usb1/1-1/1-1:1.0/net/enp0s20u1/speed",
+				"/home/rip/.themes/Rip/openbox-3/themerc",
+				"/usr/local/bin/backlight.sh",
+				"/home/rip/.config/polybar/script/dropbox-isrunning.sh",
+				"/usr/share/spicetify-cli/globals.d.ts",
+				"/usr/bin/spicetify",
+				"/usr/share/spicetify-cli/spicetify",
+				"/home/rip/.config/spicetify/config.ini",
+				"/home/rip/.config/spicetify/Themes/Black/color.ini",
+				"/home/rip/.config/spicetify/Themes/BIB-Green/color.ini",
+				"/home/rip/.config/spicetify/Themes/Rip/color.ini",
+				"/home/rip/.mozilla/firefox/profiles.ini",
+				"/home/rip/.local/bin/myobtheme/openbox-3/themerc",
+				"/home/rip/.config/spicetify/Themes/Black/user.css",
+				"/home/rip/.config/spicetify/Themes/Challenger-Deep/user.css",
+				"/home/rip/.config/spicetify/Themes/Rip/README.md",
+				"/usr/local/MATLAB/R2019b/toolbox/matlab/graphics/addpoints.m",
+				"/usr/local/MATLAB/R2019b/toolbox/matlab/graphics/figure.m",
+				"/usr/local/MATLAB/R2019b/toolbox/matlab/graphics/figure",
+				"/home/rip/.config/wpg/sequences",
+				"/home/rip/Dropbox/Università/Primo Anno/Optimal control/Project/puma_simulation/graphics.mat",
+				"/home/rip/.local/bin/obtgen",
+				"/home/rip/Dropbox/Università/Primo Anno/Optimal control/Project/puma_simulation/Puma_Simulation.m",
+				"/home/rip/.config/wpg/wp_init.sh",
+				"/home/rip/.Xresources",
+				"/home/rip/.config/lxterminal/lxterminal.conf",
+				"/home/rip/Downloads/puma_simulation/Puma_Simulation.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Optimal control/Project/puma_simulation/license.txt",
+				"/home/rip/.gtkrc-2.0",
+				"/home/rip/.icons/default/index.theme",
+				"/home/rip/.config/polybar/script/spotify_status.py",
+				"/usr/local/bin/xbacklight.sh",
+				"/usr/local/bin/volume.sh",
+				"/usr/local/bin/mute.sh",
+				"/home/rip/linux-desktop-conf/openbox/menu/battery",
+				"/home/rip/linux-desktop-conf/openbox/menu/date",
+				"/home/rip/Downloads/puma_simulation/license.txt",
+				"/home/rip/.cache/.fr-Dyl8Is/puma3d.m",
+				"/home/rip/.cache/.fr-4hbsUv/license.txt",
+				"/home/rip/.config/autostart/dropbox.desktop",
+				"/home/rip/.dropbox/info.json",
+				"/home/rip/.dropbox/dropbox.pid",
+				"/home/rip/.dropbox/instance1/config.dbx",
+				"/home/rip/.dropbox/logs/1ro/1-971c-5de138f5.tmp",
+				"/home/rip/.dropbox/logs/0/1-94ce-5e276eb8",
+				"/usr/share/dropbox-cli/dropbox-cli.py",
+				"/usr/local/bin/dropbox.py",
+				"/home/rip/.config/spicetify/Themes/Dark/user.css",
+				"/home/rip/.config/spicetify/Themes/Dark/README.md",
+				"/home/rip/.config/spicetify/Themes/Arc-Dark/color.ini",
+				"/home/rip/.config/spicetify/Themes/Arc-Dark/README.md",
+				"/home/rip/.config/spicetify/Themes/Arc-Dark/user.css",
+				"/home/rip/.config/spicetify/Themes/Black/README.md",
+				"/tmp/mozilla_rip0/codebeautify.html",
+				"/home/rip/.config/polybar/test-fonts.pl",
+				"/home/rip/Gestione home xperia",
+				"/etc/xdg/autostart/wicd-tray.desktop",
+				"/var/log/wicd/wicd.log",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/matlab_most_useful_command.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Robotics 1/subspaces_3Rplanar.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/splines_2.m",
+				"/home/rip/Downloads/splines_2.m",
+				"/home/rip/nonNormalized.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Robotics 1/DeLuca_Mail1.txt",
+				"/home/rip/Dropbox/Università/Primo Anno/Robotics 1/DeLuca_Mail2.txt",
+				"/tmp/mozilla_rip0/RRRR_kinematics.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/bang_coast_bang_trajectory_planning.m",
+				"/tmp/mozilla_rip0/Описание и установка.txt",
+				"/home/rip/.cache/.fr-GjlWPp/matlab/output.xml",
+				"/home/rip/MATLAB Add-Ons/Toolboxes/Robotics Toolbox for MATLAB/resources/documentation.xml",
+				"/usr/bin/yes",
+				"/usr/bin/wargames",
+				"/home/rip/prova.py",
+				"/home/rip/pkglist_24_11_2019",
+				"/var/log/pacman.log",
+				"/var/lib/dkms/bcwc-pcie/r256.b0c7a6a/build/make.log",
+				"/usr/local/bin/2to3",
+				"/home/rip/Downloads/dropbox.py",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/DH2Homogeneous.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/newtonMethodOneStep.m",
+				"/home/rip/Dropbox/Università/Primo Anno/Matlab_Rob/newtonMethod.m"
+			],
+			"find":
+			{
+				"height": 24.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"*",
+					"linux-desktop-conf",
+					"new",
+					"search",
+					"url",
+					"border",
+					"color2",
+					"color1",
+					"hide",
+					"never",
+					"color1",
+					"alt",
+					"hover",
+					"gree",
+					"hover",
+					"gree",
+					"button_bg",
+					"button_fg",
+					"bar",
+					"slider",
+					"rgba(254, 69, 69, 1)",
+					"play",
+					"rgba(254, 69, 69, 1)",
+					"main_fg",
+					"buddy",
+					"custom",
+					"END"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"dotFiles"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/rip/.config/spicetify/Themes/Rip_white/color.ini",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 1233,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										725,
+										725
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/rip/.config/spicetify/Themes/Rip_white/user.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 15770,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										10894,
+										10894
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 7577.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/rip/.config/spicetify/Themes/Gradianto/user.css",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 21621,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										18964,
+										18969
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/CSS/CSS.sublime-syntax",
+									"translate_tabs_to_spaces": false
+								},
+								"translation.x": 0.0,
+								"translation.y": 10579.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 24.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,0,0,0,0,1440,900",
+			"project": "",
+			"replace":
+			{
+				"height": 44.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": false,
+			"side_bar_width": 152.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 13,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
