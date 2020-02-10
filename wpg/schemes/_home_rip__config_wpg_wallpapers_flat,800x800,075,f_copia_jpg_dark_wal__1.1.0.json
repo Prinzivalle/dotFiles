@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/rip/.config/wpg/wallpapers/flat,800x800,075,f_copia.jpg",
+    "alpha": "100",
+
+    "special": {
+        "background": "#090909",
+        "foreground": "#fff2e8",
+        "cursor": "#fff2e8"
+    },
+    "colors": {
+        "color0": "#090909",
+        "color1": "#FE1212",
+        "color2": "#B04F4C",
+        "color3": "#E05B56",
+        "color4": "#D7221F",
+        "color5": "#e06060",
+        "color6": "#FE3131",
+        "color7": "#d7bcb4",
+        "color8": "#222222",
+        "color9": "#ff0505",
+        "color10": "#f55752",
+        "color11": "#ff635b",
+        "color12": "#ff1c18",
+        "color13": "#ff4444",
+        "color14": "#ff2b2b",
+        "color15": "#fff2e8"
+    }
+}
