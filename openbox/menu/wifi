@@ -1,0 +1,52 @@
+#!/bin/bash
+
+HomeDir="/home/rip"
+
+to_xml() {
+	printf '  <item label="%s" icon="%s/dotFiles/icons/notification-network-wireless-disconnected-symbolic.png\">\n' "$1" "$2"
+	printf '    <action name=\"Execute\"><command>sudo netctl %s</command></action>\n' "$1"
+	echo '  </item>\n'
+}
+
+active(){
+	printf '  <item label="%s" icon="%s/dotFiles/icons/notification-network-wireless-symbolic.png\">\n' "$1" "$2"
+	printf '    <action name=\"Execute\"><command>sudo netctl %s</command></action>\n' "$1"
+	echo '  </item>\n'
+}
+
+stop-all(){
+	printf '  <item label="%s" icon="%s/dotFiles/icons/notification-network-wireless-disconnected-symbolic.png\">\n' "$1" "$2"
+	printf '    <action name=\"Execute\"><command>sudo netctl %s</command></action>\n' "$1"
+	echo '  </item>\n'
+}
+
+cat << WIFIMENU
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_pipe_menu>
+<item label="Menu" icon="$HomeDir/dotFiles/icons/notification-network-wireless-symbolic.png">
+ 	<action name="Execute">
+ 		<command>
+ 			<![CDATA[xterm -e 'sudo wifi-menu']]>
+ 		</command>
+	 </action>
+</item>
+WIFIMENU
+
+stop-all 'stop-all' $HomeDir 
+
+IFS=$'\n'
+profiles=($(netctl list))
+
+regex="^[ \*]"
+for p in "${profiles[@]}"; do
+	cmd="restart"
+	[[ $p =~ ^\* ]] && cmd="stop"
+	while [[ "$p" =~ $regex ]]; do p=${p:1}; done
+	if [[ $cmd == "stop" ]]; then
+	 	active "$cmd $p" $HomeDir
+	else
+		to_xml "$cmd $p" $HomeDir
+	fi 
+done
+
+echo '</openbox_pipe_menu>'

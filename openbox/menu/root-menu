@@ -1,0 +1,167 @@
+#!/bin/bash
+HomeDir="/home/rip"
+
+
+echo "<openbox_pipe_menu>"
+Battery=$(acpi -b | grep "Battery" | sed -nr '/Battery/s/.*(\<[[:digit:]]+%).*/\1/p')
+cat << DATE
+   <separator label="`date +%d\ %A\ %I\:%M\ %p`" />
+DATE
+
+cat << BATTERY
+<menu  id="battery-menu" label="Battery ~ $Battery" icon="$HomeDir/dotFiles/icons/battery-full.png">
+	<item label="TLP" icon="$HomeDir/dotFiles/icons/battery-full.png"><action name="Execute">
+		<command>
+			<![CDATA[sudo tlp stat]]>
+		</command>
+	</action>
+</item>
+</menu>
+BATTERY
+
+cat << WIFI
+<menu execute="$HomeDir/dotFiles/openbox/menu/wifi" id="wireless-menu" label="Wifi networks" icon="$HomeDir/dotFiles/icons/notification-network-wireless-symbolic.png"/>
+WIFI
+
+cat << APPLICATIONSMENU
+<separator label="Applications"/>
+<item icon="$HomeDir/dotFiles/icons/99827f10c2dbe6383ec1cce8556a9ca0.png" label="File Manager">
+	<action name="Execute">
+		<command>
+<![CDATA[thunar]]>																																															
+		</command>
+	</action>
+</item>
+<item icon="$HomeDir/dotFiles/icons/Terminal-icon.png" label="Terminal">
+	<action name="Execute">
+		<command>
+<![CDATA[xfce4-terminal]]>																																																	
+		</command>
+	</action>
+</item>
+<item icon="$HomeDir/dotFiles/icons/b94d18d6de00413e379e03c6fbea6556.png" label="Firefox">
+	<action name="Execute">
+		<command>
+<![CDATA[firefox]]>																																																		
+		</command>
+	</action>
+</item>
+<item icon="$HomeDir/dotFiles/icons/0ae0c2941d429f0f86b4cdf86eaa80bb.png" label="Sublime Text">
+	<action name="Execute">
+		<command>
+<![CDATA[subl]]>																																																											
+		</command>
+	</action>
+</item>
+<item icon="$HomeDir/dotFiles/icons/14642be3f436758dc3704fcb59b11ded_icon.png" label="Task Manager">
+	<action name="Execute">
+		<command>
+<![CDATA[lxtask]]>																																															
+		</command>
+	</action>
+</item>
+<item icon="$HomeDir/dotFiles/icons/4a8769096e22b125fdbe709e7f32d7d6.png" label="Dropbox">
+	<action name="Execute">
+		<command>
+<![CDATA[dropbox]]>																																																											
+		</command>
+	</action>
+</item>
+<item icon="$HomeDir/dotFiles/icons/spotify.png" label="Spotify">
+	<action name="Execute">
+		<command>
+<![CDATA[spotify]]>																																																											
+		</command>
+	</action>
+</item>
+APPLICATIONSMENU
+
+cat << OBMENUGENERATOR
+<separator label="Categories"/>
+  <menu id="0.121791253405721" icon="$HomeDir/dotFiles/icons/applications-accessories.png" label="Accessories">
+    <item label="File Manager" icon="$HomeDir/dotFiles/icons/99827f10c2dbe6383ec1cce8556a9ca0.png"><action name="Execute"><command><![CDATA[exo-open --launch FileManager]]></command></action></item>
+    <item label="Task Manager" icon="$HomeDir/dotFiles/icons/14642be3f436758dc3704fcb59b11ded_icon.png"><action name="Execute"><command><![CDATA[lxtask]]></command></action></item>
+    <item label="GParted" icon="$HomeDir/dotFiles/icons/Apps-Gparted-icon.png"><action name="Execute"><command><![CDATA[sudo gparted]]></command></action></item>
+    <item label="Gimp" icon="$HomeDir/dotFiles/icons/gimp.png" ><action name="Execute"><command><![CDATA[gimp]]></command></action></item>
+	<item label="Image Viewer" icon="$HomeDir/dotFiles/icons/469c7948d81c3fea3239bb78804bcf10.png"><action name="Execute"><command><![CDATA[ida]]></command></action></item>
+	<item label="Calculator" icon="$HomeDir/dotFiles/icons/calculator-icon-png-16.png"><action name="Execute"><command><![CDATA[galculator]]></command></action></item>
+ </menu>
+  <menu id="0.5562610457159" icon="$HomeDir/dotFiles/icons/1f21d350c3f5b463cbb1bcfb96b9617d.png" label="Development">
+   <item label="CLion" icon="$HomeDir/dotFiles/icons/856901d2-2aca-11e7-8999-3e2dbff1d43c.png"><action name="Execute"><command><![CDATA["/opt/clion-2018.2.5/bin/clion.sh"]]></command></action></item>
+   <item icon="$HomeDir/dotFiles/icons/mcuxpresso.xpm" label="Mcuxpresso"><action name="Execute"><command><![CDATA["/usr/local/mcuxpresso-ide/ide/mcuxpressoide"]]></command></action></item>
+   <item label="Arduino" icon="$HomeDir/dotFiles/icons/arduino-icon-2.png"><action name="Execute"><command><![CDATA[sudo arduino]]></command></action></item></menu>
+  <menu id="0.496353571108681" icon="$HomeDir/dotFiles/icons/cdf4440acc25391274ec5cb43c05f320.png" label="Graphics">
+     <item label="Gimp" icon="$HomeDir/dotFiles/icons/gimp.png" ><action name="Execute"><command><![CDATA[gimp]]></command></action></item>
+    <item label="Image Viewer" icon="$HomeDir/dotFiles/icons/469c7948d81c3fea3239bb78804bcf10.png"><action name="Execute"><command><![CDATA[ida]]></command></action></item>
+  </menu>
+  <menu id="0.365225629971015" icon="$HomeDir/dotFiles/icons/681d0bc70bbd68928ee777d0f63febdb.png" label="Network">
+    <item label="Firefox" icon="$HomeDir/dotFiles/icons/b94d18d6de00413e379e03c6fbea6556.png"><action name="Execute"><command><![CDATA[/usr/bin/firefox]]></command></action></item>
+    <item label="wireshark" icon="$HomeDir/dotFiles/icons/e47ffc46a739bac5b9fb25e8ec23d97b.png"><action name="Execute"><command><![CDATA[wireshark]]></command></action></item>
+    <!--<item label="Mail Reader" icon="$HomeDir/dotFiles/icons/8503a0c5d4e80bba1ee18ae874fe7a8f.png"><action name="Execute"><command><![CDATA[exo-open -launch MailReader]]></command></action></item>-->
+  </menu>
+  <menu id="0.744928587123542" icon="$HomeDir/dotFiles/icons/2742b4ff04df6651ab5adc1831b72b9d.png" label="Office">
+    <item label="Presentation" icon="$HomeDir/dotFiles/icons/3cdda69b8110efcfe1c5097474d8c59f.png"><action name="Execute"><command><![CDATA[libreoffice --impress]]></command></action></item>
+    <item label="Spreadsheets" icon="$HomeDir/dotFiles/icons/8a3ff8a0db22487e4281e96c006b2f4b.png"><action name="Execute"><command><![CDATA[libreoffice --calc]]></command></action></item>
+    <item label="Writer" icon="$HomeDir/dotFiles/icons/2742b4ff04df6651ab5adc1831b72b9d.png"><action name="Execute"><command><![CDATA[libreoffice --writer]]></command></action></item>
+    <item label="Math" icon="$HomeDir/dotFiles/icons/calc.png"><action name="Execute"><command><![CDATA[libreoffice --math]]></command></action></item>
+
+  </menu>
+  <menu id="0.346687166937031" icon="$HomeDir/dotFiles/icons/applications-system.png" label="Settings">
+  <item label="GParted" icon="$HomeDir/dotFiles/icons/Apps-Gparted-icon.png"><action name="Execute"><command><![CDATA[sudo gparted]]></command></action></item>
+  <item label="Volume" icon="$HomeDir/dotFiles/icons/cdf4440acc25391274ec5cb43c05f320.png"><action name="Execute"><command><![CDATA[xterm -e 'alsamixer']]></command></action></item>
+   <menu id="0.574166041237131" icon="$HomeDir/dotFiles/icons/f51e911ea18f013c91929f11dc0d4a97.png" label="UI">
+        <item label="Customize Look and Feel" icon="$HomeDir/dotFiles/icons/cdf4440acc25391274ec5cb43c05f320.png"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+   		<item label="Color Palette" icon="$HomeDir/dotFiles/icons/cdf4440acc25391274ec5cb43c05f320.png"><action name="Execute"><command><![CDATA[wpg]]></command></action></item>
+   		<item label="Custom Theme" icon="$HomeDir/dotFiles/icons/cdf4440acc25391274ec5cb43c05f320.png"><action name="Execute"><command><![CDATA[xterm -e 'cd /home/rip/.local/bin/ && ./obtgen --wal']]></command></action></item>
+   		<item label="Obkeys" icon="$HomeDir/dotFiles/icons/obconf_104114.png"><action name="Execute"><command><![CDATA[obkey]]></command></action></item>
+		<item label="Keyboard and Mouse" icon="$HomeDir/dotFiles/icons/3d1f192b82d3c636482f4f3b441eb2a6.png"><action name="Execute"><command><![CDATA[lxinput]]></command></action></item>
+		<item label="Openbox Configuration Manager" icon="$HomeDir/dotFiles/icons/c553c983b553927bc2aaaec2632a1359.png"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+	    <item label="Tint2 Settings" icon="$HomeDir/dotFiles/icons/ad5ef94c8726fb6cf3d1dc4d2d653f47.png"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+		<item label="Nitrogen" icon="$HomeDir/dotFiles/icons/dc07ea0146d8fe8408ee1b3a35dded2d.png"><action name="Execute"><command><![CDATA[nitrogen $HomeDir/Wallpapers]]></command></action></item>
+		<item label="Light Locker Settings" icon="$HomeDir/dotFiles/icons/lock.jpg"><action name="Execute"><command><![CDATA[light-locker-settings]]></command></action></item>
+		<item label="qt5ct" icon="$HomeDir/dotFiles/icons/cdf4440acc25391274ec5cb43c05f320.png"><action name="Execute"><command><![CDATA[qt5ct]]></command></action></item>
+   </menu>
+   <menu id="0.574166041237132" icon="$HomeDir/dotFiles/icons/f51e911ea18f013c91929f11dc0d4a97.png" label="Programs">
+	<item label="Preferred Applications" icon="$HomeDir/dotFiles/icons/964c205326df552e62cc3cd2b37502bf.png"><action name="Execute"><command><![CDATA[exo-preferred-applications]]></command></action></item>
+     <item label="File Manager" icon="$HomeDir/dotFiles/icons/99827f10c2dbe6383ec1cce8556a9ca0.png"><action name="Execute"><command><![CDATA[thunar-settings]]></command></action></item>
+	<item label="Removable Drives and Media" icon="$HomeDir/dotFiles/icons/19722598dddc751cdf8f55e7c93c10fa.png"><action name="Execute"><command><![CDATA[thunar-volman-settings]]></command></action></item>
+    </menu>
+   <menu id="0.574166041237133" icon="$HomeDir/dotFiles/icons/f51e911ea18f013c91929f11dc0d4a97.png" label="System">
+   <item label="Terminal" icon="$HomeDir/dotFiles/icons/496ef680a2061b86f881646590069049.png"><action name="Execute"><command><![CDATA[gnome-terminal]]></command></action></item>
+   <item label="XTerm" icon="$HomeDir/dotFiles/icons/496ef680a2061b86f881646590069049.png"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+   <item label="Reconfigure Openbox" icon="$HomeDir/dotFiles/icons/cbd33e85d4e0834359519a4e282b2aeb.png"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+   </menu>
+  </menu>
+  <separator label="Session"/>
+   <menu id="exit-menu" label="Exit" icon="$HomeDir/dotFiles/icons/267668cad466d54126d57985a48651ef.png">
+   	<item label="Lock">
+		<action name="Execute">
+		        <!--<command>light-locker-command -l</command>-->
+		        <command>dm-tool switch-to-greeter</command>
+		</action>
+	</item>
+	<item label="Log Out">
+		<action name="Execute">
+			<command>openbox --exit</command>
+		</action>
+	</item>
+	<item label="Shutdown">
+		<action name="Execute">
+			<command>systemctl poweroff</command>
+		</action>
+	</item>
+	<item label="Restart">
+		<action name="Execute">
+		        <command>systemctl reboot</command>
+		</action>
+	</item>
+	<item label="Suspend">
+		<action name="Execute">
+		        <command>systemctl suspend</command>
+		</action>
+	</item>
+</menu>
+  	<!--<item label="Lock" icon="$HomeDir/dotFiles/icons/267668cad466d54126d57985a48651ef.png"><action name="Execute"><command><![CDATA[oblogout]]></command></action></item>-->
+OBMENUGENERATOR
+# cat menu1.xml
+echo "</openbox_pipe_menu>"
