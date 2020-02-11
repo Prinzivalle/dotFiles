@@ -15,3 +15,7 @@ Neofetch + Spotify modded
 
 Spotify full screen
 ![Spotify](/screenshot/20200207-224538.png)
+
+All files outside folders are from $HOME directory, except for redshift, which goes in $HOME/.config
+
+All folders come from $HOME/.config except screenshot, wallpaper and etc
