@@ -1,7 +1,7 @@
 # dotFiles
 My laptop running arch linux dotfiles
 
-Screenshot may show a somehow different since now windows are undecorated by default
+Screenshot may show a somehow differentsituation since now windows are undecorated by default
 
 My home screen
 ![Home screen](/screenshot/20200210-222849.png)
