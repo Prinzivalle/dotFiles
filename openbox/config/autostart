@@ -30,3 +30,6 @@ light-locker &
 #xss-lock -- i3lock-fancy -g -p &
 ( sleep 3 && /usr/local/bin/mute.sh ) &
 amixer set Master toggle > /dev/null &
+notify-send 'Welcome back Riccardo' --icon=dialog-information 
+(cd /home/rip/.config/autostart && rm dropbox.desktop) &
+sleep 3 && dropbox-cli stop
